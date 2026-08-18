@@ -54,7 +54,7 @@ jobs:
 
   publish-release:
     if: ${{ inputs.release_type == 'release' }}
-    uses: mosip/kattu/.github/workflows/maven-publish-android-download.yaml@master
+    uses: Mohanraj209/kattu/.github/workflows/maven-publish-android-download.yml@main
     with:
       SERVICE_LOCATION: 'kotlin'
       ANDROID_SERVICE_LOCATION: 'openID4VP'
